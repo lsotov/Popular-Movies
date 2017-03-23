@@ -18,8 +18,8 @@ android {
         }
     }
     buildTypes.each {
-        it.buildConfigField 'String', 'OPEN_WEATHER_MAP_API_KEY', '"7c71d7fb9329e760e573f68180087672"';
-        it.buildConfigField 'String', 'MOVIE_DATABASE_API_KEY', '"b5b13ab3279bd9d9bf191b0401a28ff1"';
+        it.buildConfigField 'String', 'OPEN_WEATHER_MAP_API_KEY', '""';
+        it.buildConfigField 'String', 'MOVIE_DATABASE_API_KEY', '""';
     }
 }
 
